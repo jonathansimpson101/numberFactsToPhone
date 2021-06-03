@@ -5,8 +5,8 @@ require('dotenv').config();
 const client = require('twilio')(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
 
 // Privide phone numbers
-const sandboxNumber = '+14155238886';
-const myNumber = '+447814277434';
+const sandboxNumber = '+{}';
+const myNumber = '{}';
 
 // Prompt to get number input
 let number = prompt(chalk.bgYellow('What number would you like a fact about?'));
