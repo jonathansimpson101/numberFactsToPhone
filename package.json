@@ -1,0 +1,19 @@
+{
+  "name": "numberFactsToFriends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "prompt-sync": "^4.2.0",
+    "twilio": "^3.30.0"
+  }
+}
